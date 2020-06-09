@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.admin.sensorapp">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Accelerometer"/>
+        <activity android:name=".Gyroscope"/>
+        <activity android:name=".Orientation"/>
+        <activity android:name=".Magnetometer"/>
+        <activity android:name=".Proximity" />
+        <activity android:name=".GPS"/>
+        <activity android:name=".ShakeDetection"/>
+        <activity android:name=".SecondActivity"/>
+        <activity android:name=".CheckOrientation"/>
+        <activity android:name=".ShowDataListView1"/>
+        <activity android:name=".ShowDataListView2"/>
+        <activity android:name=".ShowDataListView3"/>
+        <activity android:name=".ShowDataListView4"/>
+        <activity android:name=".CustomAdapter1"/>
+        <activity android:name=".CustomAdapter2"/>
+        <activity android:name=".CustomAdapter3"/>
+        <activity android:name=".CustomAdapter4"/>
+        <activity android:name=".DataBaseHelper1"/>
+        <activity android:name=".DataBaseHelper2"/>
+        <activity android:name=".DataBaseHelper3"/>
+        <activity android:name=".DataBaseHelper4"/>
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffccaa"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/accelerometer"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="ACCELEROMETER"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+    <Button
+        android:id="@+id/gyroscope"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="GYROSCOPE"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"/>
+    <Button
+        android:id="@+id/orientation"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="ORIENTATION"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"/>
+    <Button
+        android:id="@+id/magnetometer"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="MAGNETIC FIELD"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"/>
+    <Button
+        android:id="@+id/proximity"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="PROXIMITY"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"/>
+
+    <Button
+        android:id="@+id/gps"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="GPS"
+        android:layout_marginTop="25dp"/>
+
+    <Button
+        android:id="@+id/shake"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="SHAKE DETECTION"
+        android:layout_marginTop="25dp"/>
+</LinearLayout>
